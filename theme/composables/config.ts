@@ -6,7 +6,7 @@ import type { ThemeConfig } from '../types'
 /**
  * getThemeConfig
  */
-export function useThemeConfig<T = ThemeConfig>() {
+export function useThemeConfig<T = ThemeConfig>(): any {
   const config = useConfig<T>()
   return computed(() => config!.value.themeConfig)
 }

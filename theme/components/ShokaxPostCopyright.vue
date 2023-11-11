@@ -1,13 +1,12 @@
 <script setup lang="ts">
 import type { Post } from 'valaxy'
-import { useFullUrl } from 'valaxy'
+import { useFullUrl, useSiteConfig } from 'valaxy'
 import { useI18n } from 'vue-i18n'
-import { useThemeConfig } from '../composables'
 
 defineProps<{
   frontmatter: Post
 }>()
-const themeConfig = useThemeConfig()
+const siteConfig = useSiteConfig()
 const { t } = useI18n()
 const postURL = useFullUrl()
 </script>
@@ -20,7 +19,7 @@ const postURL = useFullUrl()
         <strong>
           {{ t("post.copyright.author") + t('symbol.colon') }}
         </strong>
-        {{ frontmatter.author || themeConfig.author }}
+        {{ frontmatter.author || siteConfig.author.name }}
         <div class="i-ri-at-line" />
         {{ frontmatter.title }}
       </li>
@@ -29,7 +28,9 @@ const postURL = useFullUrl()
         <strong>
           {{ t('post.copyright.link') + t('symbol.colon') }}
         </strong>
-        <a :href="postURL"> {{ frontmatter.title }}</a>
+        <RouterLink :to="postURL">
+          {{ frontmatter.title }}
+        </RouterLink>
       </li>
       <li class="license">
         <div class="i-ri-arrow-go-forward-line" />

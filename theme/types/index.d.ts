@@ -73,12 +73,20 @@ export interface ThemeConfig {
   }
 
   covers: string[]
+  reward: {
+    accounts: RewardAccounts[]
+  }
 }
 
 export interface NavItem {
   text: string
   link: string
   icon?: string
+}
+
+export interface RewardAccounts {
+  image: string
+  name: string
 }
 
 export type ThemeUserConfig = Partial<ThemeConfig>

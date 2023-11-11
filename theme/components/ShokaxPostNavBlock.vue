@@ -18,8 +18,8 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <a
-    :href="item.path"
+  <RouterLink
+    :to="item.path || ''"
     class="flex flex-col h-full text-white p-5 bg-cover relative"
     :rel="type"
     itemprop="url"
@@ -34,5 +34,5 @@ const { t } = useI18n()
     <h3>
       {{ item.title || item.path || t('post.untitled') }}
     </h3>
-  </a>
+  </RouterLink>
 </template>

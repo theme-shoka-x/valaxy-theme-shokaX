@@ -1,11 +1,14 @@
 <script setup lang="ts">
-import { useFrontmatter, useFullUrl } from 'valaxy'
+import type { Post } from 'valaxy'
+import { useFullUrl } from 'valaxy'
 import { useI18n } from 'vue-i18n'
 import { useThemeConfig } from '../composables'
 
+defineProps<{
+  frontmatter: Post
+}>()
 const themeConfig = useThemeConfig()
 const { t } = useI18n()
-const frontmatter = useFrontmatter()
 const postURL = useFullUrl()
 </script>
 

@@ -71,6 +71,8 @@ export interface ThemeConfig {
     rss: boolean
     atom: boolean
   }
+
+  covers: string[]
 }
 
 export interface NavItem {

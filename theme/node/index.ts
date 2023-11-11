@@ -35,6 +35,9 @@ export const defaultThemeConfig: ThemeConfig = {
     atom: false,
   },
   author: 'Anyone',
+  covers: [
+    'https://example.com',
+  ],
 }
 
 // write a vite plugin

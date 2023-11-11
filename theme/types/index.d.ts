@@ -7,6 +7,10 @@ export namespace StarterTheme {
  * Theme Config
  */
 export interface ThemeConfig {
+
+  title: string
+  author: string
+
   colors: {
     /**
      * primary color
@@ -62,6 +66,11 @@ export interface ThemeConfig {
    * navbar
    */
   nav: NavItem[]
+
+  feed: {
+    rss: boolean
+    atom: boolean
+  }
 }
 
 export interface NavItem {

@@ -6,6 +6,7 @@ import type { ThemeConfig } from '../types'
  * Default Config
  */
 export const defaultThemeConfig: ThemeConfig = {
+  title: 'testName',
   colors: {
     primary: '#0078E7',
   },
@@ -29,6 +30,11 @@ export const defaultThemeConfig: ThemeConfig = {
   },
 
   nav: [],
+  feed: {
+    rss: true,
+    atom: false,
+  },
+  author: 'Anyone',
 }
 
 // write a vite plugin

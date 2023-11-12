@@ -38,6 +38,11 @@ export const defaultThemeConfig: ThemeConfig = {
   covers: [
     'https://example.com',
   ],
+  reward: {
+    accounts: [
+      { image: '', name: '' },
+    ],
+  },
 }
 
 // write a vite plugin

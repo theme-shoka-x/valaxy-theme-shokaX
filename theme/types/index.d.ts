@@ -1,4 +1,4 @@
-export namespace StarterTheme {
+export namespace ShokaxTheme {
   export type Config = ThemeConfig
   export type Sidebar = any
 }

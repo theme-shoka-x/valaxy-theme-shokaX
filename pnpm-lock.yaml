@@ -52,8 +52,8 @@ importers:
         specifier: ^1.1.10
         version: 1.1.10
       '@iconify-json/simple-icons':
-        specifier: ^1.1.76
-        version: 1.1.77
+        specifier: ^1.1.78
+        version: 1.1.78
     devDependencies:
       valaxy:
         specifier: ^0.15.14
@@ -445,8 +445,8 @@ packages:
     dependencies:
       '@iconify/types': 2.0.0
 
-  /@iconify-json/simple-icons@1.1.77:
-    resolution: {integrity: sha512-awFflxKI8LGt3WvgPqmxX+DHX2UH0JG9Ehyv0zgsFOa93qdibtYAbVhVH/S+UWTzqFBV5NmTpTWdJ/v2kRLJIw==}
+  /@iconify-json/simple-icons@1.1.78:
+    resolution: {integrity: sha512-0EIy9T1YXyZyYj10rSqgcqswtfs30Rc6lTGW0xnLKn2O8rLR9gStvxzNfodLSRzb1zXDvx+vDuFJVKPXI7ty4g==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: false

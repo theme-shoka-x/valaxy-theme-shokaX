@@ -22,7 +22,7 @@
   "types": "types/index.d.ts",
   "dependencies": {
     "@iconify-json/ant-design": "^1.1.10",
-    "@iconify-json/simple-icons": "^1.1.76"
+    "@iconify-json/simple-icons": "^1.1.78"
   },
   "devDependencies": {
     "valaxy": "^0.15.14"

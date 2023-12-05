@@ -13,7 +13,7 @@
     "valaxy-theme-starter": "workspace:*"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1",
+    "nodemon": "^3.0.2",
     "vite-plugin-inspect": "^0.8.0"
   }
 }

@@ -43,8 +43,8 @@ importers:
         specifier: ^3.0.2
         version: 3.0.2
       vite-plugin-inspect:
-        specifier: ^0.8.0
-        version: 0.8.0(vite@4.5.1)
+        specifier: ^0.8.1
+        version: 0.8.1(vite@4.5.1)
 
   theme:
     dependencies:
@@ -4798,8 +4798,8 @@ packages:
   /vanilla-lazyload@17.8.5:
     resolution: {integrity: sha512-SQdQztlVUJqCbyU15zobpAcoTucCzdJiDIEfqinZDdwifhZxQ5H2j0BJfHlrFxi0lrVAdFBRsICH51YdPv18DQ==}
 
-  /vite-plugin-inspect@0.8.0(vite@4.5.1):
-    resolution: {integrity: sha512-6Ijifcb/dWYSZoTlkYaJmLfnsi3tR19qB706CV7D4mG6PBgBx4e5cGmICaxAFwlF9yJv6MeMwmNlXa4exA9DQw==}
+  /vite-plugin-inspect@0.8.1(vite@4.5.1):
+    resolution: {integrity: sha512-oPBPVGp6tBd5KdY/qY6lrbLXqrbHRG0hZLvEaJfiZ/GQfDB+szRuLHblQh1oi1Hhh8GeLit/50l4xfs2SA+TCA==}
     engines: {node: '>=14'}
     peerDependencies:
       '@nuxt/kit': '*'

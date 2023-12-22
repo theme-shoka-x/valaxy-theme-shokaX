@@ -11,7 +11,7 @@ defineProps<{
 const toggled = ref(false)
 const { t } = useI18n()
 const themeConfig = useThemeConfig()
-const accounts: RewardAccounts[] = themeConfig.reward.accounts
+const accounts: RewardAccounts[] = themeConfig.value.reward.accounts
 
 const toggleQR = function (event: Event) {
   event.preventDefault()
@@ -28,7 +28,7 @@ const toggleQR = function (event: Event) {
     <p class="text-sm text-gray-500 m-0">
       {{ t('reward.text') }}
     </p>
-    <Transition name="fade">
+    <Transition appear>
       <div v-if="toggled" id="qr">
         <div>
           <img v-for="item in accounts" :key="item.name" :src="item.image" :alt="item.name" loading="lazy">
@@ -41,10 +41,4 @@ const toggleQR = function (event: Event) {
 </template>
 
 <style>
-.fade-enter-active, .fade-leave-active {
-  transition: opacity 0.5s;
-}
-.fade-enter, .fade-leave-to {
-  opacity: 0;
-}
 </style>

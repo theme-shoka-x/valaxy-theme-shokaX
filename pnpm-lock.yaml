@@ -49,8 +49,8 @@ importers:
   theme:
     dependencies:
       '@iconify-json/ant-design':
-        specifier: ^1.1.12
-        version: 1.1.12
+        specifier: ^1.1.13
+        version: 1.1.13
       '@iconify-json/simple-icons':
         specifier: ^1.1.82
         version: 1.1.82
@@ -464,8 +464,8 @@ packages:
     resolution: {integrity: sha512-dvuCeX5fC9dXgJn9t+X5atfmgQAzUOWqS1254Gh0m6i8wKd10ebXkfNKiRK+1GWi/yTvvLDHpoxLr0xxxeslWw==}
     dev: true
 
-  /@iconify-json/ant-design@1.1.12:
-    resolution: {integrity: sha512-0EId0Au8s1cJEiiDGoYcvtcDrWZ76DLA5X0eA/YmZiV51hg/bR+ln++O3PaG1CYc0Gxwqyymhq7kbdV1vV6U9A==}
+  /@iconify-json/ant-design@1.1.13:
+    resolution: {integrity: sha512-ejb2Tv4z4yvsDu8gZzyr8bYqytj/PSw6i2qqyvpPpGuoADWefApwTXk1VIfpyjeeGslmrTfzKVZCo8y1sM1tEg==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: false

@@ -1,7 +1,6 @@
 {
-  "name": "valaxy-theme-starter",
-  "version": "0.2.1",
-  "packageManager": "pnpm@7.5.0",
+  "name": "valaxy-theme-shokax",
+  "version": "0.0.1",
   "author": {
     "email": "me@yunyoujun.cn",
     "name": "YunYouJun",

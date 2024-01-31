@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 import type { PageData, Post } from 'valaxy'
-import ShokaxPostFooterTags from './ShokaxPostFooterTags.vue'
 
 defineProps<{
   frontmatter: Post
@@ -21,6 +20,5 @@ defineProps<{
     </Transition>
 
     <slot name="main-content-after" />
-    <ShokaxPostFooterTags :post="frontmatter" />
   </div>
 </template>

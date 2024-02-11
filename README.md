@@ -1,3 +1,5 @@
+由于相关开发计划更改，此仓库已存档，等待进一步计划
+
 # valaxy-theme-ShokaX
 <pre align="center">
 🧪 Working in Progress
